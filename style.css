@@ -1,0 +1,93 @@
+.left-section {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section {
+  width: 50%;
+  float: left;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  width: 400px;
+  height: 650px;
+  background: black;
+  border-radius: 20px;
+}
+.output-box {
+  background-color: #1c1c1cfc;
+  border-radius: 20px;
+}
+#screen1 {
+  height: 50px;
+  width: 350px;
+  margin-top: 45px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: #fff;
+  background: #1c1c1cfc;
+  border: none;
+}
+
+#screen2 {
+  height: 80px;
+  width: 350px;
+  margin-bottom: 43px;
+  margin-left: 20px;
+  direction: rtl;
+  font-size: 40px;
+  color: #fff;
+  background: #1c1c1cfc;
+  border: none;
+}
+.row {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.btn {
+  width: 65px;
+  height: 65px;
+  margin-left: 11px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+.btn0 {
+  width: 145px;
+  height: 65px;
+  margin-left: 11px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+.btn-orange {
+  width: 65px;
+  height: 65px;
+  margin-left: 11px;
+  border-radius: 50px;
+  background: orange;
+  font-size: 25px;
+}
+.btn-grey {
+  width: 65px;
+  height: 65px;
+  margin-left: 11px;
+  border-radius: 50px;
+  background: gray;
+  font-size: 25px;
+}
+#notepad {
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
